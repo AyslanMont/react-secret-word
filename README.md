@@ -1,12 +1,37 @@
-# React + Vite
+# Secret Word
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Jogo simples de adivinhação da palavra secreta, desenvolvido em React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o projeto
 
-## Expanding the ESLint configuration
+Este é um jogo onde o jogador tenta adivinhar a palavra secreta letra por letra, similar a jogos de forca.
+Este projeto é minha versão do curso de React "React do zero a Maestria", do Matheus Battisti, disponível na Udemy.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[React do zero a Maestria- Matheus Battisti (Udemy)](https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/)
+
+---
+
+## Funcionalidades
+
+- Entrada de letras pelo teclado ou clique.
+- Indicação das letras corretas e incorretas.
+- Contador de tentativas restantes.
+- Mensagem de vitória ou derrota.
+- Reset do jogo para jogar novamente.
+
+---
+
+## Tecnologias usadas
+
+- React
+- JavaScript (ES6+)
+
+---
+
+## Como rodar o projeto localmente
+
+1. Clone este repositório  
+```bash
+git clone https://github.com/AyslanMont/react-secret-word.git
