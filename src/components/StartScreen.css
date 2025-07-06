@@ -1,3 +1,9 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .start h1 {
   font-size: 3.5rem;
 }
@@ -6,4 +12,14 @@
   margin-bottom: 2rem;
   color: #fff;
   font-weight: bold;
+}
+
+.options {
+  padding: 5px 25px;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  background-color: rgba(2, 53, 53, 1);
+  color: #fff;
+  text-align: center;
 }
