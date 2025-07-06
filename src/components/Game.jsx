@@ -1,9 +1,9 @@
-import "./Game.css"
+import "./Game.css";
 
-export default function Game() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function Game({ verifyLetter }) {
+  return (
+    <div>
+      <button onClick={verifyLetter}>Finalizar jogo</button>
+    </div>
+  );
 }
