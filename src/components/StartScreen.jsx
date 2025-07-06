@@ -1,7 +1,7 @@
 // CSS
 import "./StartScreen.css";
 
-export default function StartScreen({startGame}) {
+export default function StartScreen({ startGame }) {
   return (
     <div className="start">
       <h1>Secret Word</h1>
