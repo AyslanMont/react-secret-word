@@ -4,6 +4,16 @@
 
 ---
 
+## Imagens do jogo
+- Inicio
+![Tela-inicio](docs/tela_inicial.png)
+- Jogo em andamento
+![jogo-andamento](docs/tela_jogo.png)
+- Fim de jogo
+![fim-jogo](docs/tela_gameover.png)
+
+---
+
 ## Sobre o projeto
 
 Este é um jogo onde o jogador tenta adivinhar a palavra secreta letra por letra, similar a jogos de forca.
